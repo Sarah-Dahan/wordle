@@ -102,7 +102,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid rgba(128, 128, 128, 0.126);
+    border: 3px solid;
+    border-color: rgba(128, 128, 128, 0.126) rgba(128, 128, 128, 0.308) rgba(128, 128, 128, 0.308) rgba(128, 128, 128, 0.126);
     border-radius: 5px;
     color: black;
     background-color: lightgrey;
@@ -112,7 +113,7 @@ body {
     font-family: sans-serif;
     cursor: pointer;
 }
-.blabla {
+.enterback {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,12 +129,14 @@ body {
 #enter {
     background-color: #2b8717d4;
     color: white;
-    border: 3px solid rgba(128, 128, 128, 0.6);
+    border: 3px solid ;
+    border-color: rgba(128, 128, 128, 0.4) rgba(128, 128, 128, 0.7) rgba(128, 128, 128, 0.7) rgba(128, 128, 128, 0.4);
 }
 #back {
     background-color: #d6c100d5;
     color: white;
-    border: 3px solid rgba(128, 128, 128, 0.2);
+    border: 3px solid;
+    border-color: rgba(128, 128, 128, 0.1) rgba(128, 128, 128, 0.2) rgba(128, 128, 128, 0.2) rgba(128, 128, 128, 0.1);
 }
 
 /*COLORS*/
